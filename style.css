@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.main {
+    overflow: hidden;
+    /* background-color: #f1f1f1; */
+    /* background-color: gainsboro; */
+    background-color: rgb(8, 8, 30);
+    padding: 20px 10px;
+
+}
+
+.navbar a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 12px;
+    font-size: 40px;
+    line-height: 25px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a.Logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: chocolate;
+}
+
+.menu {
+    float: right;
+
+}
+
+.menu ul {
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul li {
+    list-style: none;
+    margin: left 100px;
+    margin-top: 13px;
+    font-size: 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.menu ul li a:hover {
+    color: chocolate;
+
+}
+
+/* Style for the dropdown container */
+.dropdown {
+    float: right;
+    /* Change to float right to place it on the right side */
+    overflow: hidden;
+}
+
+/* Style for the dropdown button */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* Style for the dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(8, 8, 30);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Style for the dropdown content links */
+.dropdown-content a {
+    float: none;
+    color: whitesmoke;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style for the dropdown content links on hover */
+.dropdown-content a:hover {
+    background-color: chocolate;
+}
+
+/* Display the dropdown content when hovering over the dropdown */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+.product {
+    float: left;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: orange;
+}
+
+.specs ul li {
+    list-style: inside;
+    color: orange;
+}
+
+body {
+    /* background-image: url(img/nn.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+    padding-left: 400px;
+}
+
+.content p {
+    font-size: 18;
+    color: orange;
+}
+
+.content h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+    padding-left: 350px;
+}
+
+.content ul li {
+    padding-left: 400px;
+    font-size: 18px;
+    color: orange;
+    list-style: inside;
+}
+
+.content h3 {
+    font-size: 18px;
+    color: orange;
+}
+
+
+
+.image-and-text {
+    display: flex;
+    align-items: center;
+}
+
+.image-and-text img {
+    max-width: 100px;
+    /* Adjust the width of the image as needed */
+    margin-right: 20px;
+    /* Adjust the spacing between the image and heading */
+}
+
+
+
+/* Add your existing styles here */
+
+/* Style for the about-container */
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f3f3f3;
+    /* Set background color */
+    padding: 20px;
+    /* Add padding */
+}
+
+/* Style for the class-subject */
+.class-subject {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 50px;
+    color: #333;
+    /* Set text color */
+}
+
+/* Style for the name */
+.name {
+    font-size: 24px;
+    margin-top: 20px;
+    /* Adjust margin */
+    color: #666;
+    /* Set text color */
+}
